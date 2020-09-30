@@ -43,5 +43,6 @@
 				  </configuration>
 			</plugin>
 		</plugins>
+		<finalName>web-application</finalName>
 	</build>
 </project>
