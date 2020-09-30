@@ -11,7 +11,7 @@ node{
          bat "mvn package"
       }
    stage('Deploy to Tomcat'){
-     bat "copy target\\InternetBankingDemo-1.0-SNAPSHOT.war \"${tomcatWeb}"
+     bat "copy target\\web-application.war \"${tomcatWeb}"
    }
       stage ('Start Tomcat Server') {
          sleep(time:5,unit:"SECONDS") 
