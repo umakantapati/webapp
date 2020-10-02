@@ -3,7 +3,7 @@
   <display-name>SimpleWebApp</display-name>
   <welcome-file-list>
     <welcome-file>home</welcome-file>
-    <welcome-file>homeview.jsp</welcome-file>
+    <welcome-file>loginView.jsp</welcome-file>
   </welcome-file-list>
   <filter-mapping>
     <filter-name>jdbcFilter</filter-name>
